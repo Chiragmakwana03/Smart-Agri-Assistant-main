@@ -1,0 +1,86 @@
+/* Government Schemes Styles */
+.schemes-header {
+    margin-top: 40px;
+    margin-bottom: 30px;
+}
+
+.schemes-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+    gap: 30px;
+    margin-bottom: 80px;
+}
+
+.scheme-card {
+    background: #fff;
+    padding: 35px;
+    border-radius: 15px;
+    border-top: 5px solid transparent; /* Placeholder for colors */
+    box-shadow: 0 10px 25px rgba(0,0,0,0.05);
+    display: flex;
+    flex-direction: column;
+}
+
+/* Card Border Colors */
+.border-blue { border-top-color: #ebf4ff; border-left: 1px solid #ebf4ff; border-right: 1px solid #ebf4ff; border-bottom: 1px solid #ebf4ff; }
+.border-green { border-top-color: #f0fff4; border-left: 1px solid #f0fff4; border-right: 1px solid #f0fff4; border-bottom: 1px solid #f0fff4; }
+.border-orange { border-top-color: #fffaf0; border-left: 1px solid #fffaf0; border-right: 1px solid #fffaf0; border-bottom: 1px solid #fffaf0; }
+.border-purple { border-top-color: #faf5ff; border-left: 1px solid #faf5ff; border-right: 1px solid #faf5ff; border-bottom: 1px solid #faf5ff; }
+
+.scheme-icon-box {
+    width: 50px;
+    height: 50px;
+    background: #f8faf9;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 22px;
+    margin-bottom: 20px;
+}
+
+.scheme-card h3 {
+    font-size: 1.4rem;
+    color: #1a202c;
+    margin-bottom: 15px;
+}
+
+.scheme-card .description {
+    color: #4a5568;
+    font-size: 0.95rem;
+    line-height: 1.6;
+    margin-bottom: 25px;
+}
+
+.scheme-details {
+    list-style: none;
+    margin-bottom: 30px;
+}
+
+.scheme-details li {
+    display: flex;
+    gap: 12px;
+    margin-bottom: 15px;
+    font-size: 14px;
+    color: #2d3748;
+}
+
+.btn-apply {
+    margin-top: auto;
+    background-color: #00a64d;
+    color: white;
+    border: none;
+    padding: 14px;
+    border-radius: 10px;
+    font-weight: 600;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    transition: 0.3s;
+}
+
+.btn-apply:hover {
+    background-color: #008a40;
+}

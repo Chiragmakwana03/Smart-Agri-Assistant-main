@@ -1,0 +1,147 @@
+/* Market Price Table Styles */
+.market-header {
+    margin-top: 40px;
+    margin-bottom: 30px;
+}
+
+.market-header h2 {
+    font-size: 1.8rem;
+    color: #1a202c;
+}
+
+.table-container {
+    background: #fff;
+    border-radius: 15px;
+    overflow: hidden; /* Important for rounded table corners */
+    box-shadow: 0 10px 30px rgba(0,0,0,0.05);
+    margin-bottom: 40px;
+}
+
+.market-table {
+    width: 100%;
+    border-collapse: collapse;
+    text-align: left;
+}
+
+.market-table thead tr {
+    background-color: #00a64d; /* AgriAssist Green */
+    color: #ffffff;
+}
+
+.market-table th, .market-table td {
+    padding: 18px 25px;
+    border-bottom: 1px solid #edf2f7;
+}
+
+.market-table tbody tr:last-child td {
+    border-bottom: none;
+}
+
+.market-table tbody tr:hover {
+    background-color: #f8faf9;
+}
+
+/* Trend and Badge Styles */
+.trend-up { color: #38a169; transform: rotate(-10deg); }
+.trend-down { color: #e53e3e; transform: rotate(10deg); }
+
+.badge {
+    padding: 6px 12px;
+    border-radius: 20px;
+    font-size: 13px;
+    font-weight: 600;
+}
+
+.badge-up {
+    background-color: #e6fffa;
+    color: #38a169;
+}
+
+.badge-down {
+    background-color: #fff5f5;
+    color: #e53e3e;
+}
+
+/* Bottom Button */
+.center-btn {
+    display: flex;
+    justify-content: center;
+    padding-bottom: 80px;
+}
+
+.btn-green-large {
+    background-color: #00a64d;
+    color: white;
+    padding: 15px 40px;
+    border: none;
+    border-radius: 10px;
+    font-size: 16px;
+    font-weight: 600;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.btn-green-large:hover {
+    background-color: #008a40;
+    transform: scale(1.05);
+}
+
+
+/*Footer Styles */
+
+
+/* Footer Styles */
+footer {
+    background: #0b1528; /* The dark blue from your screenshot */
+    color: #cbd5e0;
+    padding: 60px 0 20px;
+    margin-top: 50px; /* Adds space between weather card and footer */
+}
+
+.footer-container {
+    display: grid;
+    grid-template-columns: 2fr 1fr 1fr 1.5fr;
+    gap: 40px;
+}
+
+.footer-brand .white-text {
+    color: #fff;
+    margin-bottom: 20px;
+}
+
+.footer-links h4, .footer-contact h4 {
+    color: #fff;
+    margin-bottom: 20px;
+    font-size: 18px;
+}
+
+.footer-links ul {
+    list-style: none;
+}
+
+.footer-links li {
+    margin-bottom: 12px;
+    font-size: 14px;
+    transition: 0.3s;
+    cursor: pointer;
+}
+
+.footer-links li:hover {
+    color: #00a64d;
+}
+
+.footer-contact p {
+    font-size: 14px;
+    margin-bottom: 15px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.footer-bottom {
+    border-top: 1px solid rgba(255,255,255,0.1);
+    margin-top: 40px;
+    padding-top: 20px;
+    text-align: center;
+    font-size: 13px;
+}

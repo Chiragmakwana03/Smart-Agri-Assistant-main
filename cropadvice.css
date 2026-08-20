@@ -1,0 +1,134 @@
+/* Crop Advisory Specific Styles */
+.section-title-area {
+    padding: 60px 0 40px;
+}
+
+.section-title-area h1 { font-size: 2.5rem; color: #1a202c; }
+.section-title-area .sub-title { font-size: 2rem; color: #1a202c; margin-top: 30px; }
+.section-title-area p { color: #718096; margin-top: 8px; }
+
+.crop-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 25px;
+    margin-bottom: 80px;
+}
+
+.crop-card {
+    background: #fff;
+    padding: 40px 30px;
+    border-radius: 15px;
+    text-align: left;
+    box-shadow: 0 10px 25px rgba(0,0,0,0.05);
+    transition: transform 0.3s ease;
+}
+
+.crop-card:hover {
+    transform: translateY(-10px);
+}
+
+.crop-icon-bg {
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 28px;
+    margin-bottom: 25px;
+}
+
+.crop-card h3 {
+    font-size: 1.25rem;
+    color: #1a202c;
+    margin-bottom: 15px;
+}
+
+.crop-card p {
+    color: #718096;
+    font-size: 0.95rem;
+    line-height: 1.6;
+    margin-bottom: 25px;
+}
+
+.learn-more {
+    text-decoration: none;
+    font-weight: 600;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    font-size: 15px;
+}
+
+/* Specific Colors from your Design */
+.bg-light-green { background-color: #f0fff4; }
+.text-green { color: #38a169; }
+
+.bg-light-lime { background-color: #f7fee7; }
+.text-lime { color: #84cc16; }
+
+.bg-light-orange { background-color: #fffaf0; }
+.text-orange { color: #dd6b20; }
+
+.bg-light-red { background-color: #fff5f5; }
+.text-red { color: #e53e3e; }
+
+
+/*Footer Styles */
+
+
+/* Footer Styles */
+footer {
+    background: #0b1528; /* The dark blue from your screenshot */
+    color: #cbd5e0;
+    padding: 60px 0 20px;
+    margin-top: 50px; /* Adds space between weather card and footer */
+}
+
+.footer-container {
+    display: grid;
+    grid-template-columns: 2fr 1fr 1fr 1.5fr;
+    gap: 40px;
+}
+
+.footer-brand .white-text {
+    color: #fff;
+    margin-bottom: 20px;
+}
+
+.footer-links h4, .footer-contact h4 {
+    color: #fff;
+    margin-bottom: 20px;
+    font-size: 18px;
+}
+
+.footer-links ul {
+    list-style: none;
+}
+
+.footer-links li {
+    margin-bottom: 12px;
+    font-size: 14px;
+    transition: 0.3s;
+    cursor: pointer;
+}
+
+.footer-links li:hover {
+    color: #00a64d;
+}
+
+.footer-contact p {
+    font-size: 14px;
+    margin-bottom: 15px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.footer-bottom {
+    border-top: 1px solid rgba(255,255,255,0.1);
+    margin-top: 40px;
+    padding-top: 20px;
+    text-align: center;
+    font-size: 13px;
+}

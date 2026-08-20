@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Weather Forecast | AgriAssist</title>
+  <link rel="stylesheet" href="weather.css">
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+  <link rel="icon" href="favicon.png">
+
+</head>
+
+<body>
+
+  <header>
+    <nav class="navbar">
+      <div class="logo">
+        <div class="logo-icon"><i class="fas fa-seedling"></i></div>
+        <span>AgriAssist</span>
+      </div>
+      
+        <ul class="nav-links">
+          <li><a href="index.html">Home</a></li>
+          <li><a href="weather.html" class="active">Weather</a></li>
+          <li><a href="cropadvice.html">Crop Advice</a></li>
+          <li><a href="marketPrices.html">Market Prices</a></li>
+          <li><a href="GovernmentSchemes.html">Government Schemes</a></li>
+          <li><a href="Dashboard.html">Dashboard</a></li>
+          <li><a href="login.html">Login</a></li>
+
+        </ul>
+      </ul>
+    </nav>
+  </header>
+
+  <main class="container">
+    <div class="weather-title-section">
+      <h1>Weather Forecast</h1>
+      <p>Stay updated with accurate weather predictions for your farm</p>
+    </div>
+
+    <div class="weather-card-main">
+      <div class="weather-header-row">
+        <h2><i class="far fa-cloud"></i> Weather Forecast</h2>
+        <div class="location-badge">
+          <i class="fas fa-map-marker-alt"></i> Ahmedabad, Gujarat
+        </div>
+      </div>
+
+      <div class="weather-grid">
+        <div class="current-weather">
+          <div class="temp-main">
+            <div class="temp-text">
+              <h3>28°C</h3>
+              <p>Partly Cloudy</p>
+            </div>
+            <i class="fas fa-cloud temp-icon"></i>
+          </div>
+
+          <div class="weather-stats">
+            <div class="stat">
+              <i class="fas fa-tint"></i>
+              <span>Humidity</span>
+              <strong>65%</strong>
+            </div>
+            <div class="stat">
+              <i class="fas fa-cloud-showers-heavy"></i>
+              <span>Rainfall</span>
+              <strong>2mm</strong>
+            </div>
+            <div class="stat">
+              <i class="fas fa-wind"></i>
+              <span>Wind</span>
+              <strong>12km/h</strong>
+            </div>
+          </div>
+        </div>
+
+        <div class="forecast-list">
+          <h4>7-Day Forecast</h4>
+          <div class="forecast-item">
+            <span>Mon</span>
+            <span><i class="far fa-sun"></i> Sunny</span>
+            <span>30°C</span>
+          </div>
+          <div class="forecast-item">
+            <span>Tue</span>
+            <span><i class="far fa-cloud"></i> Cloudy</span>
+            <span>28°C</span>
+          </div>
+          <div class="forecast-item">
+            <span>Wed</span>
+            <span><i class="fas fa-cloud-rain"></i> Rainy</span>
+            <span>26°C</span>
+          </div>
+          <div class="forecast-item">
+            <span>Thu</span>
+            <span><i class="far fa-cloud"></i> Cloudy</span>
+            <span>27°C</span>
+          </div>
+          <div class="forecast-item">
+            <span>Fri</span>
+            <span><i class="far fa-sun"></i> Sunny</span>
+            <span>29°C</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </main>
+
+  <!---Footer--->
+
+  <footer>
+    <div class="footer-container container">
+      <div class="footer-brand">
+        <div class="logo white-text">
+          <div class="logo-icon"><i class="fas fa-seedling"></i></div>
+          <span>AgriAssist</span>
+        </div>
+        <p>Empowering farmers with technology for smarter, more sustainable farming practices.</p>
+        <div class="social-icons">
+          <i class="fab fa-facebook-f"></i>
+          <i class="fab fa-twitter"></i>
+          <i class="fab fa-instagram"></i>
+          <i class="fab fa-youtube"></i>
+        </div>
+      </div>
+      <div class="footer-links">
+        <h4>Quick Links</h4>
+        <ul>
+          <li>About Us</li>
+          <li>Services</li>
+          <li>Resources</li>
+          <li>Blog</li>
+        </ul>
+      </div>
+      <div class="footer-links">
+        <h4>Our Services</h4>
+        <ul>
+          <li>Weather Updates</li>
+          <li>Crop Advisory</li>
+          <li>Market Prices</li>
+          <li>IoT Solutions</li>
+        </ul>
+      </div>
+      <div class="footer-contact">
+        <h4>Contact Us</h4>
+        <p><i class="fas fa-map-marker-alt"></i> 123 Agriculture Plaza, Ahmedabad, Gujarat 380001</p>
+        <p><i class="fas fa-phone"></i> +91 1800 123 4567</p>
+        <p><i class="fas fa-envelope"></i> support@agriassist.in</p>
+      </div>
+    </div>
+    <div class="footer-bottom container">
+      <p>&copy; 2026 AgriAssist. All rights reserved.</p>
+    </div>
+  </footer>
+
+</body>
+
+</html>
